@@ -1,0 +1,43 @@
+TelGroup.Text = string.Format("電文字串(.txt)  長度：{0}", HandleString(telString_txt.Text).Length);
+
+
+TelGroup.Text = string.Format("電文字串(.txt)", "");
+
+
+
+CompareTelGroup.Text = string.Format("比對電文字串(.txt)  長度：{0}", HandleString(ComparetelString_txt.Text).Length);
+
+
+
+CompareTelGroup.Text = string.Format("比對電文字串(.txt)", "");
+
+
+
+HandleString  處理中文加兩空白
+
+
+telstrings
+telString_txt
+
+
+
+Comparetelstrings
+enableSwitch  //是否啟動比對電文按鈕
+
+
+if (Compare_ckb.Checked) {
+                        dt.Columns.Add("比對電文");
+                    }
+
+
+
+ string clickbtnName = ((Button)sender).Name;
+                        switch (clickbtnName)
+                        {
+                            case "":
+                                break;
+                                case "":
+                                    break;
+                            default:
+                                break;
+                        }
